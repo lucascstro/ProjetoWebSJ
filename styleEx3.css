@@ -1,0 +1,10 @@
+#cartoesCurso img {
+    height: 40%;
+    width: 100%;
+}
+
+.card-text {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 12px;
+}
