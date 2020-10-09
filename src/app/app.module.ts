@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { TopoComponent } from './topo/topo.component';
 import { CentroComponent } from './centro/centro.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { ProfessoresComponent } from './professores/professores.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopoComponent,
     CentroComponent,
-    RodapeComponent
+    RodapeComponent,
+    ProfessoresComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
